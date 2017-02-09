@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+    font-family: 'Barrio', cursive;
+}
+
+input, select, ul, li{
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-control {
+    min-width: 220px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    height: 600px;
+    background-color: azure;
+    position: relative;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.bola {
+    width: 45px;
+    height: 45px;
+    background: black;
+    border-radius: 25px;
+    position: absolute;
+    cursor: pointer
+}
+div span#pontuador{
+    margin-left: 11rem;
+}
+
+#pontuador{
+    font-size: 30px;
+    min-height: 40px;
+}

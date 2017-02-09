@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Estourar Bolas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1 class="text-center">Game of Bolas</h1> 
+    <form class="form-group form-inline text-center" onsubmit="return false">
+        <input class="form-control" type="text" placeholder="Qual o maximo de bolas?" id="maxBola" size="3">
+        <select id="velocidade" class="form-control">
+            <option disabled selected>Selecione uma velocidade</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <input type="submit" class="btn btn-primary" value="BORA!" onclick="init()">
+    </form>
+    <h2 class="text-center">Pontos</h2>
+    <div id="pontuador" class="text-center"></div>
+    <div class="container" id="CampoBolas">
+    </div>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
